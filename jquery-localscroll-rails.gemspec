@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/jquery-localscroll-rails/version', __FILE__)
+require File.expand_path('../lib/jquery-localscroll-rails/rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Alexander Auritt"]
@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "jquery-localscroll-rails"
   gem.require_paths = ["lib"]
-  gem.version       = Jquery::Localscroll::Rails::VERSION
+  gem.version       = JqueryLocalScroll::Rails::VERSION
 end
