@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "jquery-localscroll-rails"
   gem.require_paths = ["lib"]
   gem.version       = JqueryLocalScroll::Rails::VERSION
+
+  gem.add_dependency "jquery-scrollto-rails"
 end
